@@ -11,3 +11,16 @@ C:\Users\Aleena\source\repos\MantaRay\MantaRay\obj\Debug\netcoreapp3.1\MantaRay.
 C:\Users\Aleena\source\repos\MantaRay\MantaRay\obj\Debug\netcoreapp3.1\MantaRay.dll
 C:\Users\Aleena\source\repos\MantaRay\MantaRay\obj\Debug\netcoreapp3.1\MantaRay.pdb
 C:\Users\Aleena\source\repos\MantaRay\MantaRay\obj\Debug\netcoreapp3.1\MantaRay.genruntimeconfig.cache
+C:\Users\Aleena\Source\Repos\ITC-Strings-Arrays\MantaRay\bin\Debug\netcoreapp3.1\MantaRay.exe
+C:\Users\Aleena\Source\Repos\ITC-Strings-Arrays\MantaRay\bin\Debug\netcoreapp3.1\MantaRay.deps.json
+C:\Users\Aleena\Source\Repos\ITC-Strings-Arrays\MantaRay\bin\Debug\netcoreapp3.1\MantaRay.runtimeconfig.json
+C:\Users\Aleena\Source\Repos\ITC-Strings-Arrays\MantaRay\bin\Debug\netcoreapp3.1\MantaRay.runtimeconfig.dev.json
+C:\Users\Aleena\Source\Repos\ITC-Strings-Arrays\MantaRay\bin\Debug\netcoreapp3.1\MantaRay.dll
+C:\Users\Aleena\Source\Repos\ITC-Strings-Arrays\MantaRay\bin\Debug\netcoreapp3.1\MantaRay.pdb
+C:\Users\Aleena\Source\Repos\ITC-Strings-Arrays\MantaRay\obj\Debug\netcoreapp3.1\MantaRay.csprojAssemblyReference.cache
+C:\Users\Aleena\Source\Repos\ITC-Strings-Arrays\MantaRay\obj\Debug\netcoreapp3.1\MantaRay.AssemblyInfoInputs.cache
+C:\Users\Aleena\Source\Repos\ITC-Strings-Arrays\MantaRay\obj\Debug\netcoreapp3.1\MantaRay.AssemblyInfo.cs
+C:\Users\Aleena\Source\Repos\ITC-Strings-Arrays\MantaRay\obj\Debug\netcoreapp3.1\MantaRay.csproj.CoreCompileInputs.cache
+C:\Users\Aleena\Source\Repos\ITC-Strings-Arrays\MantaRay\obj\Debug\netcoreapp3.1\MantaRay.dll
+C:\Users\Aleena\Source\Repos\ITC-Strings-Arrays\MantaRay\obj\Debug\netcoreapp3.1\MantaRay.pdb
+C:\Users\Aleena\Source\Repos\ITC-Strings-Arrays\MantaRay\obj\Debug\netcoreapp3.1\MantaRay.genruntimeconfig.cache

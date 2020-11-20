@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aleena\\source\\repos\\MantaRay\\MantaRay\\MantaRay.csproj",
+      "projectUniqueName": "C:\\Users\\Aleena\\Source\\Repos\\ITC-Strings-Arrays\\MantaRay\\MantaRay.csproj",
       "projectName": "MantaRay",
-      "projectPath": "C:\\Users\\Aleena\\source\\repos\\MantaRay\\MantaRay\\MantaRay.csproj",
+      "projectPath": "C:\\Users\\Aleena\\Source\\Repos\\ITC-Strings-Arrays\\MantaRay\\MantaRay.csproj",
       "packagesPath": "C:\\Users\\Aleena\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aleena\\source\\repos\\MantaRay\\MantaRay\\obj\\",
+      "outputPath": "C:\\Users\\Aleena\\Source\\Repos\\ITC-Strings-Arrays\\MantaRay\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

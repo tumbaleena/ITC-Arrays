@@ -10,18 +10,16 @@ namespace MantaRay
     {
         static void Main(string[] args)
         {
-            //EXERCISE 5 
+            //EXERCISE 4 
             int[] numberArray = {12,11,10,9,8};
             string[] stringArray = { "Drummers Drumming", "Pipers Piping", "Lords-a-Leaping", "Ladies Dancing", "Maids-a-Milking" };
+            Random random = new Random();
 
-            string[] songArray = new string[5];
 
             for (int i = 0; i < 5; i++)
             {
                 int num = numberArray[i];
                 string word = stringArray[i];
-                string song = num + " " + word;
-                songArray[i] = song;
             }
 
             Console.Write(" Please enter a command (sing/quit): ");
@@ -29,9 +27,10 @@ namespace MantaRay
 
             if(input == "sing")
             { 
-                foreach(string song in songArray)
+                foreach(int num in numberArray)
                     {
-                        Console.WriteLine(song);
+                    int rand1 = random.Next(0, 4);
+                    Console.WriteLine(num + " " + stringArray[rand1]);
                     }
             }
             else
@@ -40,7 +39,7 @@ namespace MantaRay
             }
 
 
-            //EXERCISE 4 - let the user enter the size and elements of an integer array, calculate the min, max, and avg
+            //EXERCISE 3 - let the user enter the size and elements of an integer array, calculate the min, max, and avg
             /* Console.Write("How many values do you want to enter into your array? ");
             var input1 = Console.ReadLine();
             int size = int.Parse(input1);
@@ -58,8 +57,15 @@ namespace MantaRay
             Console.WriteLine("The average is: " + array.Average()); */
 
 
-            //EXERCISE 3 - calculate an array based on user input
+            //EXERCISE 2 - calculate an array based on user input
             /* int[] myArray = {16,32,64,128,256};
+            //another way to declare the array
+            //int[] myArray = new int[4];
+            //myArray[0] = 16;
+            //myArray[1] = 32;
+            //myArray[2] = 64;
+            //myArray[3] = 128;
+            //myArray[4] = 256;
 
             Console.Write("Would you like to double or half the array? ");
             string input = Console.ReadLine();
@@ -139,5 +145,5 @@ namespace MantaRay
             Console.WriteLine(helloWorld.Replace('o', '5'));
             */
         }
-}
+    }
 }
