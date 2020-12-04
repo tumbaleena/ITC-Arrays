@@ -21,8 +21,8 @@ namespace MantaRay
                 int num = numberArray[i];
                 string word = stringArray[i];
             }
-
-            Console.Write(" Please enter a command (sing/quit): ");
+            restart:
+            Console.Write("Please enter a command (sing/quit): ");
             string input = Console.ReadLine();
 
             if(input == "sing")
@@ -32,6 +32,7 @@ namespace MantaRay
                     int rand1 = random.Next(0, 4);
                     Console.WriteLine(num + " " + stringArray[rand1]);
                     }
+                goto restart;
             }
             else
             {
