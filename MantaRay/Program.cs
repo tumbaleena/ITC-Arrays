@@ -13,25 +13,26 @@ namespace MantaRay
             //EXERCISE 4 
             int[] numberArray = {12,11,10,9,8};
             string[] stringArray = { "Drummers Drumming", "Pipers Piping", "Lords-a-Leaping", "Ladies Dancing", "Maids-a-Milking" };
+            string[] songArray = new string[5];
             Random random = new Random();
 
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < numberArray.Length; i++)
             {
-                int num = numberArray[i];
-                string word = stringArray[i];
+                songArray[i] = $"{numberArray[i]} {stringArray[i]}"; //concatenates the numbers with the words and populates the array
             }
-            restart:
+            
+            restart: //here's where it will restart if you choose to sing
             Console.Write("Please enter a command (sing/quit): ");
             string input = Console.ReadLine();
 
             if(input == "sing")
-            { 
-                foreach(int num in numberArray)
+            {
+                for (int i = 0; i < songArray.Length; i++)
                     {
                     int rand1 = random.Next(0, 4);
-                    Console.WriteLine(num + " " + stringArray[rand1]);
-                    }
+                    Console.WriteLine(songArray[rand1]);
+                     }
                 goto restart;
             }
             else
