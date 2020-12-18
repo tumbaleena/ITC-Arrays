@@ -104,21 +104,38 @@ namespace MantaRay
 
             // EXERCISE 1 - Create an array and check for a certain number
             /*  int[] myArray = { 2, 8, 0, 24, 51 };
-              Console.Write("Please enter a number to search for in the array: ");
-              string input = Console.ReadLine();
-              int number = int.Parse(input);
-              for (int i = 0; i < myArray.Length; i++)
-              {
-                  if(myArray[i] == number)
-                      {
-                          Console.WriteLine($"Success! {myArray[i]} is in the array, at index location {i}.");
-                          break;
-                      }
-                  else
-                  {
-                      continue;
-                  }
-              } */
+        bool isFound = false;
+
+    Start:
+        Console.Write("Please enter a number to search for in the array: ");
+        string input = Console.ReadLine();
+        int number = int.Parse(input);
+
+        for (int i = 0; i < myArray.Length; i++)
+        {
+            if (myArray[i] == number)
+            {
+                Console.Write($"Success! {myArray[i]} is in the array, at index location {i}.  ");
+                isFound = true;
+                break;
+            }
+        }
+
+        if (isFound == false){
+          Console.Write("That value cannot be found in the array.  ");
+        }
+
+        Console.Write("Do you wish to continue? (Y/N) ");
+        input = Console.ReadLine();
+
+        if (input.ToLower().Contains("y"))
+        {
+            goto Start;
+        }
+        else
+        {
+            Environment.Exit(0);
+        }*/
 
 
             //ARRAY EXAMPLE
