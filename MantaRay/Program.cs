@@ -30,7 +30,7 @@ namespace MantaRay
             {
                 for (int i = 0; i < songArray.Length; i++)
                     {
-                    int rand1 = random.Next(0, 4);
+                    int rand1 = random.Next(0, 5);
                     Console.WriteLine(songArray[rand1]);
                      }
                 goto restart;
@@ -80,7 +80,7 @@ namespace MantaRay
                         multiplier = .5;
                     }
                 }
-                else if(input == "double")
+                else if(input.ToLower() == "double")
                 {
                     for (int i = 0; i < myArray.Length; i++)
                     {
