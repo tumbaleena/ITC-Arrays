@@ -9,11 +9,15 @@ DevBuild Intro to C# Day 4 String Exercises and examples
 
 Today's slides: https://drive.google.com/file/d/193NZN4BA4ihPG9wbqUkUGRAKPSYb5pVZ/view?usp=sharing
 
-String exercise 1: 
+String examples: 
 
 Array exercise 1: https://repl.it/@tumbaleena/Array-Exercise-1
 
-Array exercise 2:
+Array exercise 2: https://repl.it/@tumbaleena/Array-Exercise-2
+
+Array exercise 3: https://repl.it/@tumbaleena/Array-Exercise-3
+
+Array exercise 4: https://repl.it/@tumbaleena/Array-Exercise-4
 
 
 ------------------------------
