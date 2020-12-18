@@ -9,9 +9,11 @@ DevBuild Intro to C# Day 4 String Exercises and examples
 
 Today's slides: https://drive.google.com/file/d/193NZN4BA4ihPG9wbqUkUGRAKPSYb5pVZ/view?usp=sharing
 
-Gist of strings: https://gist.github.com/tumbaleena/e368e3f516e618e050a9de902e85f7f8
+String exercise 1: 
 
-Gist of arrays: https://gist.github.com/tumbaleena/6cb596f48b2c2ee590c0e26db866a767
+Array exercise 1: https://repl.it/@tumbaleena/Array-Exercise-1
+
+Array exercise 2:
 
 
 ------------------------------
